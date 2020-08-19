@@ -6,7 +6,7 @@
 
 This plugin allows you to generate a [sitemap.xml](http://www.sitemaps.org/protocol.html) from your source files. By default it looks for any `.html` files and processes them with [sitemap.js](https://github.com/ekalinin/sitemap.js).
 
-This fork generates Urls with a trailing slash.
+This fork generates Urls with a trailing slash, and has support for loading static URLs from a JSON file
 
 ## Installation
 
