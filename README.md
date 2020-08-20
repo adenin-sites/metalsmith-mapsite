@@ -97,6 +97,11 @@ Will remove extensions from the urls in the sitemap. Useful when you're rewritin
 
 Will replace any paths ending in `index.html` with `''`. Useful when you're using [metalsmith-permalinks](https://github.com/segmentio/metalsmith-permalinks).
 
+##### jsonFile
+* `optional`
+
+Adds URLs from a JSON file to the sitemap. Should be a path to a JSON file, with objects having at least a `path` property (the path of the URL) and optionally any of the below frontmatter properties.
+
 ## Frontmatter
 
 Some values can also be set on a file-to-file basis from a file's frontmatter, the options are:
